@@ -1,0 +1,24 @@
+<view class='product'>
+  <view class='search'>
+    <van-search
+  value="{{ value }}"
+  placeholder="搜索安孚产品"
+  show-action
+  bind:search="onSearch"
+  bind:cancel="onCancel"
+/>
+  </view>
+
+  <view class='content'>
+    <view class='left'>
+      <view class='nav-item' wx:for='{{categorys}}' wx:key='index'>{{item.name}}</view>
+    </view>
+    <view class='right'>
+      <view class='goods' wx:for='{{goods}}' wx:key='index'>
+        <view>
+          <image src='{{item.picture}}' style='width:250rpx;height:150rpx'></image>        
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+
+
+page{
+  background-color: #f6f6f6;
+  display: block;
+  min-height: 100%;
+  font-size: 14px;
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "收货地址",
+  "usingComponents": {
+    "van-radio": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/radio/index",
+    "van-radio-group": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/radio-group/index"
+  }
+}

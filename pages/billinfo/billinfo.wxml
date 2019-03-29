@@ -1,0 +1,9 @@
+<view class='billinfo'>
+  <van-cell
+  title="单元格"
+  value="内容"
+  is-link
+  arrow-direction="down"
+  url="/pages/dashboard/index"
+/>
+</view>

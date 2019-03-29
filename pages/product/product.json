@@ -1,0 +1,8 @@
+{
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "产品分类",
+  "usingComponents": {
+    "van-search": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/search/index"
+  }
+}

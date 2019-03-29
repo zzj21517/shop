@@ -1,0 +1,21 @@
+<view class='enterpriseLaw'>
+  <van-cell-group>
+    <van-field value="{{ formInfo.company }}" required clearable type='text' label="企业名称：" data-name='company' bind:change='onChange' />
+    <van-field value="{{ formInfo.username }}" required clearable type='text' label="联系人：" data-name='username' bind:change='onChange' />
+    <van-field value="{{ formInfo.sex }}" required clearable type='text' label="联系人性别：" id='sex' bindtap='openActionSheet' data-name='sex' bind:change='onChange' readonly />
+    <van-field value="{{ formInfo.phone }}" required clearable type='text' label="联系方式：" data-name='phone' bind:change='onChange' />
+    <van-field value="{{ formInfo.credit }}" required title-width='130px' clearable type='text' label="统一社会信用代码：" data-name='credit' bind:change='onChange' />
+    <van-field value="{{ formInfo.register }}" required clearable type='text' label="注册地：" data-name='register' bind:change='onChange' />
+    <van-field value="{{ formInfo.address }}" required clearable type='text' label="办公地：" data-name='address' bind:change='onChange' />
+  </van-cell-group>
+
+  <view class='btn' style='width:90%;margin:40rpx auto'>
+    <button type="warn" size="default" style='border-radius:0' bindtap='confirm'>
+      确认
+    </button>
+  </view>
+
+    <!-- van-action-sheet -->
+  <!-- 单选框 -->
+  <van-action-sheet show="{{show1}}" actions="{{ actions }}" title='单选' bind:close="onClose1" bind:select="onSelect" />
+</view>

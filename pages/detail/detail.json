@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "产品详情",
+  "usingComponents": {
+    "van-stepper": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/stepper/index",
+    "van-tab": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/tab/index",
+    "van-tabs": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/tabs/index"
+  }
+}

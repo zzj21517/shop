@@ -1,0 +1,21 @@
+<view class='addressManage'>
+  <van-cell-group>
+    <van-cell title="御驾无忧" is-link url="/pages/address/address?addr=noWorries&type=manage" />
+  </van-cell-group>
+
+  <van-cell-group>
+    <van-cell title="企业法顾" is-link url="/pages/address/address?addr=enterpriseLaw&type=manage" />
+  </van-cell-group>
+
+  <van-cell-group>
+    <van-cell title="体检通" is-link url="/pages/address/address?addr=physicalExam&type=manage" />
+  </van-cell-group>
+
+  <van-cell-group>
+    <van-cell title="御嫁红娘" is-link url="/pages/address/address?addr=matchMaker&type=manage" />
+  </van-cell-group>
+
+  <van-cell-group>
+    <van-cell title="及时雨" is-link url="/pages/address/address?addr=timelyRain&type=manage" />
+  </van-cell-group>
+</view>

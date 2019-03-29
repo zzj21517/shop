@@ -1,0 +1,20 @@
+<view class='physicalExam'>
+  <van-cell-group>
+    <van-field value="{{ formInfo.username }}" required clearable type='text' label="姓名：" title-width='70px' data-name='username' bind:change='onChange' />
+    <van-field value="{{ formInfo.sex }}" required clearable type='text' label="性别：" title-width='70px' bindtap='openActionSheet' data-num='0' data-name='sex' bind:change='onChange' readonly />
+    <van-field value="{{ formInfo.card }}" required clearable type='text' label="身份证号：" title-width='70px' data-name='card' bind:change='onChange' />
+    <van-field value="{{ formInfo.phone }}" required clearable type='text' label="手机号：" title-width='70px' data-name='phone' bind:change='onChange' />
+    <van-field value="{{ formInfo.maritalstatus }}" required title-width='70px' clearable type='text' label="婚否：" bindtap='openActionSheet' data-num='1' data-name='maritalstatus' bind:change='onChange' readonly />
+  </van-cell-group>
+
+  <view class='btn' style='width:90%;margin:40rpx auto'>
+    <button type="warn" size="default" style='border-radius:0' bindtap='confirm'>
+      确认
+    </button>
+  </view>
+
+
+  <!-- van-action-sheet -->
+  <!-- 单选框 -->
+  <van-action-sheet show="{{show1}}" actions="{{ actions }}" title='单选' bind:close="onClose1" bind:select="onSelect" />
+</view>

@@ -1,0 +1,10 @@
+{
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "van-icon": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/icon/index",
+    "van-cell": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/cell/index",
+    "van-cell-group": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/cell-group/index"
+  }
+}

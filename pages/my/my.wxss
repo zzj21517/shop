@@ -1,0 +1,15 @@
+/* pages/my/my.wxss */
+.login{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 280rpx;
+  padding:0rpx 20rpx;
+}
+.avatar{
+  display: flex;
+  align-items: center;
+}
+.avatar .name{
+  margin-left: 20rpx;
+}

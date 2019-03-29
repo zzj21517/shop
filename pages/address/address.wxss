@@ -1,0 +1,40 @@
+/* pages/address/address.wxss */
+
+.none{
+  margin:10%;
+  text-align: center;
+}
+
+.li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20rpx 0;
+  border-top: 1px solid #f6f6f6;
+}
+.li .radio,.li .edit{
+  flex:1;
+  text-align: center;
+}
+.li .addr{
+  margin-left: 20rpx;
+  flex:5
+}
+.li .edit{
+  color:red;
+}
+.li .addr .name{
+  color:black;
+}
+.li .addr .addr-name{
+  color:gray;
+  font-size: 15px
+}
+
+.btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

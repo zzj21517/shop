@@ -1,0 +1,27 @@
+<view class='address'>
+  <view class='addressList'>
+    <view wx:if='{{addressList.length===0}}' class='none'>
+      请点击下方新增收货地址!
+    </view>
+
+    <view wx:else class='ul'>
+      <van-radio-group value="{{ radio }}">
+        <view class='li' wx:for='{{addressList}}' wx:key='{{index}}'>
+          <view wx:if='{{!type}}' class='radio' data-name='{{item.name}}' data-address='{{item}}' bindtap='changeRadio'>
+            <van-radio name="{{item.name}}" checked-color="red"></van-radio>
+          </view>
+          <view class='addr' data-name='{{item.name}}' data-address='{{item}}' bindtap='changeRadio'>
+            <view class='name'>{{item.username}} {{item.phone}}</view>
+            <view class='addr-name'>{{item.address}}</view>
+          </view>
+          <view class='edit' bindtap='edit'>编辑</view>
+        </view>
+      </van-radio-group>
+    </view>
+  </view>
+  <view class='btn'>
+    <button type="warn" size="default" style='border-radius:0' bindtap='addAddress'>
+      新增收货地址
+    </button>
+  </view>
+</view>

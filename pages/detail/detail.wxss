@@ -1,0 +1,35 @@
+/* pages/detail/detail.wxss */
+
+.banner{
+  
+}
+
+.goods-num{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+  background-color: #fff;
+}
+
+.nowPrice{
+  font-size: 18px;
+  color:red;
+  margin-right: 10rpx;
+}
+.beforePrice{
+  text-decoration: line-through;
+}
+
+.goods-detail{
+  margin-bottom: 140rpx;
+}
+
+.buy{
+  position: fixed;
+  bottom: 0rpx;
+  left: 0rpx;
+  right: 0rpx;
+  text-align: center;
+  background-color: #fff;
+}

@@ -1,0 +1,7 @@
+/* pages/confirm/confirm.wxss */
+
+.checkbox{
+  background-color: #fff;
+  padding: 20rpx;
+  border-top:2px solid #f6f6f6;
+}

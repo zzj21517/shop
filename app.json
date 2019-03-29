@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/product/product",
+    "pages/my/my",
+    "pages/partner/partner",
+    "pages/detail/detail",
+    "pages/confirm/confirm",
+    "pages/partner-success/partner-success",
+    "pages/billinfo/billinfo",
+    "pages/address/address",
+    "pages/noWorries/noWorries",
+    "pages/enterpriseLaw/enterpriseLaw",
+    "pages/physicalExam/physicalExam",
+    "pages/matchMaker/matchMaker",
+    "pages/timelyRain/timelyRain",
+    "pages/addressManage/addressManage",
+    "pages/demo/demo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "安孚医疗救援",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "red",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/index1.png",
+        "selectedIconPath": "static/images/index2.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "产品",
+        "iconPath": "static/images/product1.png",
+        "selectedIconPath": "static/images/product2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/images/my1.png",
+        "selectedIconPath": "static/images/my2.png"
+      }
+    ]
+  }
+}

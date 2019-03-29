@@ -1,0 +1,57 @@
+<view class='container'>
+  <!-- swiper -->
+  <view class='swiper'>
+    <swiper indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}' class='swiper-box' id='top'>
+      <block wx:for='{{bannerList}}' wx:key='index'>
+        <swiper-item>
+          <image class='slide-image' src='{{item.bannerUrl}}' />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!-- btn -->
+  <view class='main-btn'>
+    <button style='background-color:#d71425;color:#fff'>我的专属二维码</button>
+    <button style='background-color:#f67b17;color:#fff'>合伙人中心</button>
+  </view>
+
+  <!-- product -->
+  <view class='product'>
+    <view class='title'>
+      <image src='/static/images/logo.png' style='width:60rpx;height:60rpx'></image>
+      <view style='font-size:12px'>VIP AREA</view>
+      <view style='font-size:18px;font-weight:600'>会<span style='border-bottom:1px solid black'>员专</span>区</view>
+    </view>
+
+    <view class='goods'>
+      <view class='single-goods' wx:for="{{goodsList}}" wx:key='index'>
+        <navigator url='/pages/detail/detail?id={{item.goodsid}}' hover-class="none">
+          <image src='{{item.picture}}' style='width:300rpx;height:200rpx'></image>
+          <view>{{item.name}}</view>
+          <view>
+            <span class='nowPrice'>￥{{item.price}}.00</span>
+            <span class='beforePrice'>￥{{item.rawprice}}.00</span>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+
+  <!-- personHarm -->
+  <view class='personHarm'>
+    <view class='title'>
+      <image src='/static/images/logo.png' style='width:60rpx;height:60rpx'></image>
+      <view style='font-size:12px'>HUMAN INJURY</view>
+      <view style='font-size:18px;font-weight:600'>人<span style='border-bottom:1px solid black'>伤专</span>区</view>
+    </view>
+
+    <view class='content'>
+      <view class='left'>
+        <image src='/static/images/advanced.png' style='width:335rpx;height:200rpx'></image>
+      </view>
+      <view class='right'>
+        <image src='/static/images/claim.png' style='width:335rpx;height:200rpx'></image>
+      </view>
+    </view>
+  </view>
+</view>

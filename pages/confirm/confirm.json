@@ -1,0 +1,17 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "确认订单",
+  "usingComponents": {
+    "van-stepper": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/stepper/index",
+    "van-card": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/card/index",
+    "van-cell": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/cell/index",
+    "van-field": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/field/index",
+    "van-cell-group": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/cell-group/index",
+    "van-submit-bar": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/submit-bar/index",
+    "van-collapse": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/collapse/index",
+    "van-collapse-item": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/collapse-item/index",
+    "van-checkbox": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/checkbox/index",
+    "van-checkbox-group": "/miniprogram_npm/_vant-weapp@0.5.7@vant-weapp/checkbox-group/index"
+  }
+}

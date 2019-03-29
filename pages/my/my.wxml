@@ -1,0 +1,42 @@
+<view class='my'>
+  <!-- login -->
+  <view class='login'>
+    <view class='avatar'>
+      <image src='{{userInfo.avatarUrl}}' style='width:123rpx;height:123rpx;border-radius:50%'></image>
+      <view class='name'>
+        {{userInfo.nickName}}
+      </view>
+
+    </view>
+    <view>
+      <van-icon name="arrow" />
+    </view>
+  </view>
+
+  <!-- group-cell -->
+  <view class='cell'>
+    <van-cell-group>
+      <van-cell title="我的订单" icon="orders-o" is-link url="/pages/identity/identity" />
+    </van-cell-group>
+
+    <van-cell-group>
+      <van-cell title="合伙人中心" icon="friends-o" is-link url="/pages/partner/partner" />
+    </van-cell-group>
+
+    <van-cell-group>
+      <van-cell title="体检预约" icon="clock-o" is-link url="/pages/pastHistory/pastHistory" />
+    </van-cell-group>
+
+    <van-cell-group>
+      <van-cell title="御嫁红娘会员注册" icon="like-o" is-link url="/pages/pastHistory/pastHistory" />
+    </van-cell-group>
+
+    <van-cell-group>
+      <van-cell title="线下会员卡激活" icon="vip-card-o" is-link url="/pages/pastHistory/pastHistory" />
+    </van-cell-group>
+
+    <van-cell-group>
+      <van-cell title="地址管理" icon="location-o" is-link url="/pages/addressManage/addressManage" />
+    </van-cell-group>
+  </view>
+</view>

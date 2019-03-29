@@ -1,0 +1,5 @@
+/* pages/partner-success/patner-success.wxss */
+.partner-success{
+  text-align: center;
+  margin-top: 20%;
+}

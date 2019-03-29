@@ -1,0 +1,128 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.2",
+	"appid": "wx95d69e8c492eaf10",
+	"projectname": "shop",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 11,
+			"list": [
+				{
+					"id": -1,
+					"name": "billinfo",
+					"pathName": "pages/billinfo/billinfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "确认页面",
+					"pathName": "pages/confirm/confirm",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "address",
+					"pathName": "pages/address/address",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "御驾无忧",
+					"pathName": "pages/noWorries/noWorries",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "企业法顾",
+					"pathName": "pages/enterpriseLaw/enterpriseLaw",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "体检通",
+					"pathName": "pages/physicalExam/physicalExam",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "红娘",
+					"pathName": "pages/matchMaker/matchMaker",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "及时雨",
+					"pathName": "pages/timelyRain/timelyRain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detail",
+					"pathName": "pages/detail/detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "地址管理",
+					"pathName": "pages/addressManage/addressManage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "合伙人中心",
+					"pathName": "pages/partner/partner",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "demo",
+					"pathName": "pages/demo/demo",
+					"scene": null
+				}
+			]
+		}
+	}
+}

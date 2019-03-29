@@ -1,0 +1,5 @@
+<view class='partner-success'>
+  <image src='/static/images/success.png' style='width:160rpx;height:160rpx'></image>
+  <view>注册申请已提交成功</view>
+  <view>审核员正在加急审核，请耐心等候</view>
+</view>

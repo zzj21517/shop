@@ -1,0 +1,33 @@
+<view class='confirm'>
+  <!-- 商品详情 -->
+  <view class='goods-detail'>
+    <van-card num="{{goods.num}}" price="{{goods.price}}.00" desc="描述信息" title="{{goods.name}}" thumb="{{ goods.brands[0] }}" centered />
+  </view>
+  <!-- 商品数量 -->
+  <view class='goods-num'>
+    <van-cell title="购买数量">
+      <view>
+        <van-stepper value="{{goods.num}}" data-name='num' bind:change="onChange" />
+      </view>
+    </van-cell>
+
+    <van-cell title="收货人：{{address.username}} {{address.phone}}" size="large" label="地址：{{address.address}}" is-link url='/pages/address/address?addr={{goods.addresstype}}' />
+    <van-collapse value="{{ activeNames }}" data-name='activeNames' bind:change="onChange">
+      <van-collapse-item title="发票信息" name="1">
+        <van-cell-group>
+          <van-field value="{{ billInfo.invoicename }}" title-width='100px' clearable type='text' label="名称：" data-name='invoicename' bind:change='onChange' />
+          <van-field value="{{ billInfo.invoicenum }}" title-width='100px' clearable type='text' label="纳税人识别号：" data-name='invoicenum' bind:change='onChange' />
+          <van-field value="{{ billInfo.aaddressphone }}" title-width='100px' clearable type='text' label="地址、电话：" data-name='aaddressphone' bind:change='onChange' />
+          <van-field value="{{ billInfo.banknumber }}" title-width='100px' clearable type='text' label="开户行及账号：" data-name='banknumber' bind:change='onChange' />
+        </van-cell-group>
+      </van-collapse-item>
+    </van-collapse>
+    <view class='checkbox'>
+      <van-checkbox value="{{ checked }}" checked-color="red" data-name='checked' bind:change="onChange">请勾选产品电子协议</van-checkbox>
+    </view>
+  </view>
+
+  <view class='pay'>
+    <van-submit-bar price="{{ goods.amount }}" button-text="微信支付" bind:submit="onSubmit" />
+  </view>
+</view>
