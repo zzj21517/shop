@@ -1,7 +1,7 @@
 <view class='confirm'>
   <!-- 商品详情 -->
   <view class='goods-detail'>
-    <van-card num="{{goods.num}}" price="{{goods.price}}.00" desc="描述信息" title="{{goods.name}}" thumb="{{ goods.brands[0] }}" centered />
+    <van-card num="{{goods.num}}" price="{{goods.price}}.00" desc="{{goods.goodsDescription}}" title="{{goods.name}}" thumb="{{ goods.brands[0] }}" centered />
   </view>
   <!-- 商品数量 -->
   <view class='goods-num'>

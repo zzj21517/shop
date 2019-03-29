@@ -35,7 +35,7 @@ Page({
         if (res.statusCode === 200) {
           res.data.forEach(function(item) {
             item.num = 1
-            item.amount = item.price
+            item.amount = item.price*100
           })
           getApp().globalData.goodsList = res.data
           that.setData({
